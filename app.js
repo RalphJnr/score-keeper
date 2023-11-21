@@ -58,6 +58,8 @@ reset.addEventListener("click", function () {
 
   p1Button.setAttribute("class", "green");
   p2Button.setAttribute("class", "cyan");
+  p1Button.removeAttribute("disabled");
+  p2Button.removeAttribute("disabled");
   p1Text.style.color = "";
   p2Text.style.color = "";
 });
